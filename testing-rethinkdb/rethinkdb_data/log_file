@@ -1,0 +1,137 @@
+2019-03-29T22:15:34.583895701 0.015651s notice: Recursively removing directory /home/linuxlite/testing-rethinkdb/rethinkdb_data/tmp
+2019-03-29T22:15:34.586806082 0.018561s notice: Initializing directory /home/linuxlite/testing-rethinkdb/rethinkdb_data
+2019-03-29T22:15:34.586953901 0.018709s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/home/linuxlite/testing-rethinkdb/rethinkdb_data' did not already exist or is empty.)
+2019-03-29T22:15:34.586993946 0.018749s notice: Running rethinkdb 2.3.6~0xenial (GCC 5.3.1)...
+2019-03-29T22:15:34.589018787 0.020775s notice: Running on Linux 4.4.0-112-generic x86_64
+2019-03-29T22:15:34.590925719 0.022680s notice: Loading data from directory /home/linuxlite/testing-rethinkdb/rethinkdb_data
+2019-03-29T22:15:34.621806476 0.053561s info: Automatically using cache size of 975 MB
+2019-03-29T22:15:34.626003393 0.057758s notice: Listening for intracluster connections on port 29015
+2019-03-29T22:15:34.632438672 0.064194s notice: Listening for client driver connections on port 28015
+2019-03-29T22:15:34.632651366 0.064406s notice: Listening for administrative HTTP connections on port 8080
+2019-03-29T22:15:34.632654980 0.064409s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2019-03-29T22:15:34.632658936 0.064413s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2019-03-29T22:15:34.632660600 0.064415s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2019-03-29T22:15:34.632663977 0.064418s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2019-03-29T22:15:34.632667498 0.064422s notice: Server ready, "linuxlite_VirtualBox_cmn" 2a92d46b-3542-4dfc-9754-adb8edac9254
+2019-03-29T22:24:03.615879235 509.047634s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2019-03-29T22:24:03.615944023 509.047699s notice: Shutting down client connections...
+2019-03-29T22:24:03.616071165 509.047826s notice: All client connections closed.
+2019-03-29T22:24:03.616074145 509.047829s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2019-03-29T22:24:03.674020047 509.105775s notice: Storage engine shut down.
+2019-03-29T22:24:04.771521532 0.075459s notice: Running rethinkdb 2.3.6~0xenial (GCC 5.3.1)...
+2019-03-29T22:24:04.783426741 0.087369s notice: Running on Linux 4.4.0-112-generic x86_64
+2019-03-29T22:24:04.787220341 0.091158s notice: Loading data from directory /home/linuxlite/testing-rethinkdb/rethinkdb_data
+2019-03-29T22:24:04.813614512 0.117551s info: Automatically using cache size of 778 MB
+2019-03-29T22:24:04.816098745 0.120035s notice: Listening for intracluster connections on port 29015
+2019-03-29T22:24:04.818519790 0.122456s notice: Listening for client driver connections on port 28015
+2019-03-29T22:24:04.819904887 0.123841s notice: Listening for administrative HTTP connections on port 8080
+2019-03-29T22:24:04.819910000 0.123846s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2019-03-29T22:24:04.819914633 0.123851s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2019-03-29T22:24:04.819917086 0.123853s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2019-03-29T22:24:04.819921184 0.123857s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2019-03-29T22:24:04.819925494 0.123861s notice: Server ready, "linuxlite_VirtualBox_cmn" 2a92d46b-3542-4dfc-9754-adb8edac9254
+2019-03-30T00:12:08.866673106 6484.170609s info: Table 457dfafc-a098-406e-8d57-fd05fa9c5147: Starting a new Raft election for term 1.
+2019-03-30T00:12:08.867140947 6484.171077s info: Table 457dfafc-a098-406e-8d57-fd05fa9c5147: Added replica on this server.
+2019-03-30T00:12:08.871263885 6484.175200s info: Table 457dfafc-a098-406e-8d57-fd05fa9c5147: This server is Raft leader for term 1. Latest log index is 0.
+2019-03-30T00:12:29.310043883 6504.613980s notice: Removing file /home/linuxlite/testing-rethinkdb/rethinkdb_data/457dfafc-a098-406e-8d57-fd05fa9c5147
+2019-03-30T00:12:29.310893806 6504.614830s info: Table 457dfafc-a098-406e-8d57-fd05fa9c5147: Deleted the table.
+2019-03-30T00:12:31.145369632 6506.449306s info: Table c6058814-454f-4f4c-887e-9ecbc0f59e25: Added replica on this server.
+2019-03-30T00:12:31.145415960 6506.449352s info: Table c6058814-454f-4f4c-887e-9ecbc0f59e25: Starting a new Raft election for term 1.
+2019-03-30T00:12:31.148614687 6506.452551s info: Table c6058814-454f-4f4c-887e-9ecbc0f59e25: This server is Raft leader for term 1. Latest log index is 0.
+2019-03-30T00:13:40.057495610 6575.361432s notice: Removing file /home/linuxlite/testing-rethinkdb/rethinkdb_data/c6058814-454f-4f4c-887e-9ecbc0f59e25
+2019-03-30T00:13:40.058317473 6575.362254s info: Table c6058814-454f-4f4c-887e-9ecbc0f59e25: Deleted the table.
+2019-03-30T00:13:41.703224219 6577.007161s info: Table 4a2f8f8a-b803-4f4f-9d3f-c04beb913ef6: Added replica on this server.
+2019-03-30T00:13:41.703290568 6577.007227s info: Table 4a2f8f8a-b803-4f4f-9d3f-c04beb913ef6: Starting a new Raft election for term 1.
+2019-03-30T00:13:41.708290982 6577.012227s info: Table 4a2f8f8a-b803-4f4f-9d3f-c04beb913ef6: This server is Raft leader for term 1. Latest log index is 0.
+2019-03-30T00:16:45.479615191 6760.783551s notice: Removing file /home/linuxlite/testing-rethinkdb/rethinkdb_data/4a2f8f8a-b803-4f4f-9d3f-c04beb913ef6
+2019-03-30T00:16:45.480381662 6760.784318s info: Table 4a2f8f8a-b803-4f4f-9d3f-c04beb913ef6: Deleted the table.
+2019-03-30T00:19:09.327266333 6904.631203s info: Table a75011d9-67a8-4f54-ac5a-d64fe6a1d777: Starting a new Raft election for term 1.
+2019-03-30T00:19:09.327640206 6904.631576s info: Table a75011d9-67a8-4f54-ac5a-d64fe6a1d777: Added replica on this server.
+2019-03-30T00:19:09.332789152 6904.636725s info: Table a75011d9-67a8-4f54-ac5a-d64fe6a1d777: This server is Raft leader for term 1. Latest log index is 0.
+2019-03-30T00:19:37.583637667 6932.887574s notice: Removing file /home/linuxlite/testing-rethinkdb/rethinkdb_data/a75011d9-67a8-4f54-ac5a-d64fe6a1d777
+2019-03-30T00:19:37.584229120 6932.888165s info: Table a75011d9-67a8-4f54-ac5a-d64fe6a1d777: Deleted the table.
+2019-03-30T00:22:59.051463177 7134.355399s info: Table 19691e73-5530-4449-9acd-85fa30745ab7: Starting a new Raft election for term 1.
+2019-03-30T00:22:59.051755328 7134.355691s info: Table 19691e73-5530-4449-9acd-85fa30745ab7: Added replica on this server.
+2019-03-30T00:22:59.058863619 7134.362800s info: Table 19691e73-5530-4449-9acd-85fa30745ab7: This server is Raft leader for term 1. Latest log index is 0.
+2019-03-30T00:25:01.359890564 7256.663827s notice: Removing file /home/linuxlite/testing-rethinkdb/rethinkdb_data/19691e73-5530-4449-9acd-85fa30745ab7
+2019-03-30T00:25:01.360544963 7256.664481s info: Table 19691e73-5530-4449-9acd-85fa30745ab7: Deleted the table.
+2019-03-30T00:25:04.567041636 7259.870978s info: Table 42799f00-1b9c-44b7-919a-ebf1364ce1ce: Starting a new Raft election for term 1.
+2019-03-30T00:25:04.567268508 7259.871205s info: Table 42799f00-1b9c-44b7-919a-ebf1364ce1ce: Added replica on this server.
+2019-03-30T00:25:04.570766283 7259.874702s info: Table 42799f00-1b9c-44b7-919a-ebf1364ce1ce: This server is Raft leader for term 1. Latest log index is 0.
+2019-03-30T00:25:08.666709164 7263.970645s notice: Removing file /home/linuxlite/testing-rethinkdb/rethinkdb_data/42799f00-1b9c-44b7-919a-ebf1364ce1ce
+2019-03-30T00:25:08.667422307 7263.971358s info: Table 42799f00-1b9c-44b7-919a-ebf1364ce1ce: Deleted the table.
+2019-03-30T00:27:22.769009701 7398.072946s info: Table 04fcc1aa-93f8-419e-9dc5-243980022d33: Starting a new Raft election for term 1.
+2019-03-30T00:27:22.769708352 7398.073645s info: Table 04fcc1aa-93f8-419e-9dc5-243980022d33: Added replica on this server.
+2019-03-30T00:27:22.775671896 7398.079608s info: Table 04fcc1aa-93f8-419e-9dc5-243980022d33: This server is Raft leader for term 1. Latest log index is 0.
+2019-03-30T00:27:35.901465190 7411.205401s notice: Removing file /home/linuxlite/testing-rethinkdb/rethinkdb_data/04fcc1aa-93f8-419e-9dc5-243980022d33
+2019-03-30T00:27:35.902113598 7411.206050s info: Table 04fcc1aa-93f8-419e-9dc5-243980022d33: Deleted the table.
+2019-03-30T00:27:38.663267711 7413.967204s info: Table e5f1b0d4-6bc5-4285-94a0-76700df86820: Added replica on this server.
+2019-03-30T00:27:38.663308865 7413.967245s info: Table e5f1b0d4-6bc5-4285-94a0-76700df86820: Starting a new Raft election for term 1.
+2019-03-30T00:27:38.667582685 7413.971519s info: Table e5f1b0d4-6bc5-4285-94a0-76700df86820: This server is Raft leader for term 1. Latest log index is 0.
+2019-03-30T00:28:05.130470649 7440.434407s notice: Removing file /home/linuxlite/testing-rethinkdb/rethinkdb_data/e5f1b0d4-6bc5-4285-94a0-76700df86820
+2019-03-30T00:28:05.131045796 7440.434982s info: Table e5f1b0d4-6bc5-4285-94a0-76700df86820: Deleted the table.
+2019-03-30T00:29:00.685508254 7495.989444s info: Table 4cfee1cc-aca8-4fdd-867a-3e66f421618d: Starting a new Raft election for term 1.
+2019-03-30T00:29:00.685875767 7495.989812s info: Table 4cfee1cc-aca8-4fdd-867a-3e66f421618d: Added replica on this server.
+2019-03-30T00:29:00.689109340 7495.993046s info: Table 4cfee1cc-aca8-4fdd-867a-3e66f421618d: This server is Raft leader for term 1. Latest log index is 0.
+2019-03-30T00:29:28.342842213 7523.646778s notice: Removing file /home/linuxlite/testing-rethinkdb/rethinkdb_data/4cfee1cc-aca8-4fdd-867a-3e66f421618d
+2019-03-30T00:29:28.343728425 7523.647665s info: Table 4cfee1cc-aca8-4fdd-867a-3e66f421618d: Deleted the table.
+2019-03-30T00:30:59.523986972 7614.827923s info: Table 5805ca87-cd4e-4c33-bb69-f490ea524905: Starting a new Raft election for term 1.
+2019-03-30T00:30:59.524432432 7614.828369s info: Table 5805ca87-cd4e-4c33-bb69-f490ea524905: Added replica on this server.
+2019-03-30T00:30:59.528236600 7614.832173s info: Table 5805ca87-cd4e-4c33-bb69-f490ea524905: This server is Raft leader for term 1. Latest log index is 0.
+2019-03-30T00:32:01.208181507 7676.512118s notice: Removing file /home/linuxlite/testing-rethinkdb/rethinkdb_data/5805ca87-cd4e-4c33-bb69-f490ea524905
+2019-03-30T00:32:01.208760664 7676.512697s info: Table 5805ca87-cd4e-4c33-bb69-f490ea524905: Deleted the table.
+2019-03-30T00:32:03.032583010 7678.336519s info: Table 79dbc205-46ee-49ae-b457-69d87c13e036: Starting a new Raft election for term 1.
+2019-03-30T00:32:03.032988517 7678.336925s info: Table 79dbc205-46ee-49ae-b457-69d87c13e036: Added replica on this server.
+2019-03-30T00:32:03.037882581 7678.341819s info: Table 79dbc205-46ee-49ae-b457-69d87c13e036: This server is Raft leader for term 1. Latest log index is 0.
+2019-03-30T00:32:41.705410471 7717.009347s notice: Removing file /home/linuxlite/testing-rethinkdb/rethinkdb_data/79dbc205-46ee-49ae-b457-69d87c13e036
+2019-03-30T00:32:41.706216943 7717.010153s info: Table 79dbc205-46ee-49ae-b457-69d87c13e036: Deleted the table.
+2019-03-30T00:32:43.517820032 7718.821756s info: Table 49fdc2a6-d164-4155-9960-fc6ce003fabc: Starting a new Raft election for term 1.
+2019-03-30T00:32:43.518243843 7718.822180s info: Table 49fdc2a6-d164-4155-9960-fc6ce003fabc: Added replica on this server.
+2019-03-30T00:32:43.521851463 7718.825788s info: Table 49fdc2a6-d164-4155-9960-fc6ce003fabc: This server is Raft leader for term 1. Latest log index is 0.
+2019-03-30T00:33:17.436107681 7752.740044s notice: Removing file /home/linuxlite/testing-rethinkdb/rethinkdb_data/49fdc2a6-d164-4155-9960-fc6ce003fabc
+2019-03-30T00:33:17.436947811 7752.740884s info: Table 49fdc2a6-d164-4155-9960-fc6ce003fabc: Deleted the table.
+2019-03-30T00:33:29.528046081 7764.831982s info: Table 12108307-4429-4ff1-a452-e39385111e14: Added replica on this server.
+2019-03-30T00:33:29.528091765 7764.832028s info: Table 12108307-4429-4ff1-a452-e39385111e14: Starting a new Raft election for term 1.
+2019-03-30T00:33:29.531301421 7764.835238s info: Table 12108307-4429-4ff1-a452-e39385111e14: This server is Raft leader for term 1. Latest log index is 0.
+2019-03-30T00:35:20.030081506 7875.334018s notice: Removing file /home/linuxlite/testing-rethinkdb/rethinkdb_data/12108307-4429-4ff1-a452-e39385111e14
+2019-03-30T00:35:20.030831084 7875.334767s info: Table 12108307-4429-4ff1-a452-e39385111e14: Deleted the table.
+2019-03-30T00:35:21.540340984 7876.844277s info: Table 6540986b-e189-409a-b8e6-b8d067969af6: Starting a new Raft election for term 1.
+2019-03-30T00:35:21.540631037 7876.844567s info: Table 6540986b-e189-409a-b8e6-b8d067969af6: Added replica on this server.
+2019-03-30T00:35:21.545310673 7876.849247s info: Table 6540986b-e189-409a-b8e6-b8d067969af6: This server is Raft leader for term 1. Latest log index is 0.
+2019-03-30T00:35:59.353114045 7914.657050s notice: Removing file /home/linuxlite/testing-rethinkdb/rethinkdb_data/6540986b-e189-409a-b8e6-b8d067969af6
+2019-03-30T00:35:59.353632173 7914.657568s info: Table 6540986b-e189-409a-b8e6-b8d067969af6: Deleted the table.
+2019-03-30T00:36:00.861232925 7916.165169s info: Table 05244906-563b-4df5-ab56-f7a53cb993e4: Starting a new Raft election for term 1.
+2019-03-30T00:36:00.861672450 7916.165609s info: Table 05244906-563b-4df5-ab56-f7a53cb993e4: Added replica on this server.
+2019-03-30T00:36:00.864995474 7916.168932s info: Table 05244906-563b-4df5-ab56-f7a53cb993e4: This server is Raft leader for term 1. Latest log index is 0.
+2019-03-30T00:36:14.278325388 7929.582262s notice: Removing file /home/linuxlite/testing-rethinkdb/rethinkdb_data/05244906-563b-4df5-ab56-f7a53cb993e4
+2019-03-30T00:36:14.279093587 7929.583030s info: Table 05244906-563b-4df5-ab56-f7a53cb993e4: Deleted the table.
+2019-03-30T00:36:18.006544399 7933.310481s info: Table 6f185def-bff3-4d1c-8773-7868800269a6: Starting a new Raft election for term 1.
+2019-03-30T00:36:18.006796797 7933.310733s info: Table 6f185def-bff3-4d1c-8773-7868800269a6: Added replica on this server.
+2019-03-30T00:36:18.010203991 7933.314140s info: Table 6f185def-bff3-4d1c-8773-7868800269a6: This server is Raft leader for term 1. Latest log index is 0.
+2019-03-30T00:36:29.750395320 7945.054332s notice: Removing file /home/linuxlite/testing-rethinkdb/rethinkdb_data/6f185def-bff3-4d1c-8773-7868800269a6
+2019-03-30T00:36:29.750401813 7945.054338s info: Table 6f185def-bff3-4d1c-8773-7868800269a6: Deleted the table.
+2019-03-30T00:36:33.788937018 7949.092873s info: Table 5ff39473-00b7-4564-b68a-31dc9143f384: Starting a new Raft election for term 1.
+2019-03-30T00:36:33.789219296 7949.093155s info: Table 5ff39473-00b7-4564-b68a-31dc9143f384: Added replica on this server.
+2019-03-30T00:36:33.791185688 7949.095122s info: Table 5ff39473-00b7-4564-b68a-31dc9143f384: This server is Raft leader for term 1. Latest log index is 0.
+2019-03-30T00:36:36.001899567 7951.305836s notice: Removing file /home/linuxlite/testing-rethinkdb/rethinkdb_data/5ff39473-00b7-4564-b68a-31dc9143f384
+2019-03-30T00:36:36.002438271 7951.306374s info: Table 5ff39473-00b7-4564-b68a-31dc9143f384: Deleted the table.
+2019-03-30T00:36:38.044057125 7953.347993s info: Table e53990b7-6260-42bb-b200-88735230b5a9: Starting a new Raft election for term 1.
+2019-03-30T00:36:38.044284732 7953.348221s info: Table e53990b7-6260-42bb-b200-88735230b5a9: Added replica on this server.
+2019-03-30T00:36:38.047586959 7953.351523s info: Table e53990b7-6260-42bb-b200-88735230b5a9: This server is Raft leader for term 1. Latest log index is 0.
+2019-03-30T00:37:09.597789018 7984.901725s notice: Removing file /home/linuxlite/testing-rethinkdb/rethinkdb_data/e53990b7-6260-42bb-b200-88735230b5a9
+2019-03-30T00:37:09.598331189 7984.902267s info: Table e53990b7-6260-42bb-b200-88735230b5a9: Deleted the table.
+2019-03-30T00:38:47.121484968 8082.425421s info: Table 8c33f1db-e776-4c08-8856-f1f9c32a6c29: Starting a new Raft election for term 1.
+2019-03-30T00:38:47.121889294 8082.425825s info: Table 8c33f1db-e776-4c08-8856-f1f9c32a6c29: Added replica on this server.
+2019-03-30T00:38:47.126797974 8082.430734s info: Table 8c33f1db-e776-4c08-8856-f1f9c32a6c29: This server is Raft leader for term 1. Latest log index is 0.
+2019-03-30T00:39:12.463546200 8107.767482s notice: Removing file /home/linuxlite/testing-rethinkdb/rethinkdb_data/8c33f1db-e776-4c08-8856-f1f9c32a6c29
+2019-03-30T00:39:12.464087063 8107.768023s info: Table 8c33f1db-e776-4c08-8856-f1f9c32a6c29: Deleted the table.
+2019-03-30T00:40:08.942610889 8164.246547s info: Table 8fc181a6-72fc-4e2d-9f36-0e8a5d6e91e1: Starting a new Raft election for term 1.
+2019-03-30T00:40:08.942843522 8164.246780s info: Table 8fc181a6-72fc-4e2d-9f36-0e8a5d6e91e1: Added replica on this server.
+2019-03-30T00:40:08.946884989 8164.250821s info: Table 8fc181a6-72fc-4e2d-9f36-0e8a5d6e91e1: This server is Raft leader for term 1. Latest log index is 0.
+2019-03-30T00:40:22.825557141 8178.129493s notice: Removing file /home/linuxlite/testing-rethinkdb/rethinkdb_data/8fc181a6-72fc-4e2d-9f36-0e8a5d6e91e1
+2019-03-30T00:40:22.826081087 8178.130017s info: Table 8fc181a6-72fc-4e2d-9f36-0e8a5d6e91e1: Deleted the table.
+2019-03-30T00:40:26.762060445 8182.065997s info: Table 00153c49-d16d-488e-b8f4-35e6fdf292c9: Starting a new Raft election for term 1.
+2019-03-30T00:40:26.762468605 8182.066405s info: Table 00153c49-d16d-488e-b8f4-35e6fdf292c9: Added replica on this server.
+2019-03-30T00:40:26.765810830 8182.069747s info: Table 00153c49-d16d-488e-b8f4-35e6fdf292c9: This server is Raft leader for term 1. Latest log index is 0.
+2019-03-30T00:40:47.788510225 8203.092447s notice: Removing file /home/linuxlite/testing-rethinkdb/rethinkdb_data/00153c49-d16d-488e-b8f4-35e6fdf292c9
+2019-03-30T00:40:47.788517921 8203.092454s info: Table 00153c49-d16d-488e-b8f4-35e6fdf292c9: Deleted the table.

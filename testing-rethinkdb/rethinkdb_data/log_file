@@ -135,3 +135,35 @@
 2019-03-30T00:40:26.765810830 8182.069747s info: Table 00153c49-d16d-488e-b8f4-35e6fdf292c9: This server is Raft leader for term 1. Latest log index is 0.
 2019-03-30T00:40:47.788510225 8203.092447s notice: Removing file /home/linuxlite/testing-rethinkdb/rethinkdb_data/00153c49-d16d-488e-b8f4-35e6fdf292c9
 2019-03-30T00:40:47.788517921 8203.092454s info: Table 00153c49-d16d-488e-b8f4-35e6fdf292c9: Deleted the table.
+2019-03-30T01:03:45.366542166 9580.670479s error: Inaccessible database file: "/home/linuxlite/testing-rethinkdb/rethinkdb_data/tmp/b432b56a-d6ab-45de-8917-6ef971c0a92f.create": No such file or directory\nSome possible reasons:\n- the database file couldn't be created or opened for reading and writing\n- the user which was used to start the database is not an owner of the file
+2019-03-30T01:03:56.792600629 0.018145s notice: Running rethinkdb 2.3.6~0xenial (GCC 5.3.1)...
+2019-03-30T01:03:56.796958970 0.022505s notice: Running on Linux 4.4.0-112-generic x86_64
+2019-03-30T01:03:56.797092600 0.022637s notice: Loading data from directory /home/linuxlite/testing-realtime-databases/testing-rethinkdb/rethinkdb_data
+2019-03-30T01:03:56.815558772 0.041103s info: Automatically using cache size of 941 MB
+2019-03-30T01:03:56.816009303 0.041553s notice: Listening for intracluster connections on port 29015
+2019-03-30T01:03:56.982977643 0.208523s notice: Listening for client driver connections on port 28015
+2019-03-30T01:03:56.984234910 0.209780s notice: Listening for administrative HTTP connections on port 8080
+2019-03-30T01:03:56.984245286 0.209789s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2019-03-30T01:03:56.984252833 0.209797s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2019-03-30T01:03:56.984285634 0.209830s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2019-03-30T01:03:56.984292655 0.209837s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2019-03-30T01:03:56.984299419 0.209844s notice: Server ready, "linuxlite_VirtualBox_cmn" 2a92d46b-3542-4dfc-9754-adb8edac9254
+2019-03-30T01:03:58.716581791 1.942127s info: Table b432b56a-d6ab-45de-8917-6ef971c0a92f: Starting a new Raft election for term 1.
+2019-03-30T01:03:58.726350414 1.951896s info: Table b432b56a-d6ab-45de-8917-6ef971c0a92f: This server is Raft leader for term 1. Latest log index is 0.
+2019-03-30T01:04:01.513166172 4.738710s notice: Removing file /home/linuxlite/testing-realtime-databases/testing-rethinkdb/rethinkdb_data/b432b56a-d6ab-45de-8917-6ef971c0a92f
+2019-03-30T01:04:01.513278852 4.738823s info: Table b432b56a-d6ab-45de-8917-6ef971c0a92f: Deleted the table.
+2019-03-30T01:04:03.227966651 6.453511s info: Table bc34e50f-ea7d-491a-aebb-4f335b741c67: Added replica on this server.
+2019-03-30T01:04:03.228009104 6.453553s info: Table bc34e50f-ea7d-491a-aebb-4f335b741c67: Starting a new Raft election for term 1.
+2019-03-30T01:04:03.231443192 6.456987s info: Table bc34e50f-ea7d-491a-aebb-4f335b741c67: This server is Raft leader for term 1. Latest log index is 0.
+2019-03-30T01:04:20.362471260 23.588015s notice: Removing file /home/linuxlite/testing-realtime-databases/testing-rethinkdb/rethinkdb_data/bc34e50f-ea7d-491a-aebb-4f335b741c67
+2019-03-30T01:04:20.362595318 23.588139s info: Table bc34e50f-ea7d-491a-aebb-4f335b741c67: Deleted the table.
+2019-03-30T01:04:23.421850083 26.647395s info: Table 0a991965-41a4-43c3-88a1-b1a554e3c1ff: Starting a new Raft election for term 1.
+2019-03-30T01:04:23.423338090 26.648883s info: Table 0a991965-41a4-43c3-88a1-b1a554e3c1ff: Added replica on this server.
+2019-03-30T01:04:23.427421119 26.652966s info: Table 0a991965-41a4-43c3-88a1-b1a554e3c1ff: This server is Raft leader for term 1. Latest log index is 0.
+2019-03-30T01:04:33.133228765 36.358773s notice: Removing file /home/linuxlite/testing-realtime-databases/testing-rethinkdb/rethinkdb_data/0a991965-41a4-43c3-88a1-b1a554e3c1ff
+2019-03-30T01:04:33.133353614 36.358898s info: Table 0a991965-41a4-43c3-88a1-b1a554e3c1ff: Deleted the table.
+2019-03-30T01:05:16.555664941 79.781210s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2019-03-30T01:05:16.556300707 79.781845s notice: Shutting down client connections...
+2019-03-30T01:05:16.556644600 79.782189s notice: All client connections closed.
+2019-03-30T01:05:16.557087260 79.782632s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2019-03-30T01:05:16.616403167 79.841948s notice: Storage engine shut down.

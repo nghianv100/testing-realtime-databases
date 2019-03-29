@@ -1,0 +1,93 @@
+body {
+    font-family: sans-serif;
+    background-color: #315481;
+    background-image: linear-gradient(to bottom, #315481, #918e82 100%);
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+
+.container {
+    width: 1024px;
+    margin: 32px auto;
+    background-color: rgb(158, 255, 158);
+    border-radius: 12px;
+}
+
+.container .logo {
+    float: left;
+    margin: 12px 24px;
+}
+
+.container .title {
+    float: right;
+    margin: 12px 24px;
+}
+
+.container .title h4 {
+    text-align: right;
+}
+
+.table-area {
+    float: left;
+    width: 550px;
+    height: 500px;
+    margin: 12px;
+    padding: 12px;
+    border-radius: 12px;
+    background-color: red;
+    overflow: auto;
+}
+
+.info-area {
+    float: right;
+    width: 350px;
+    height: 500px;
+    margin: 12px;
+    padding: 12px;
+    border-radius: 12px;
+    background-color: blue;
+}
+
+#btn-test {
+    display: block;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 12px;
+    font-size: 1.4em;
+}
+
+#btn-refresh {
+    display: block;
+    width: 90%;
+    margin: auto;
+    font-size: 1.4em;
+}
+
+.n-updates {
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.n-updates span {
+    font-weight: bold;
+}
+
+.n-ping span {
+    font-weight: bold;
+}
+
+.n-ping {
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.clearfix {
+    clear: both;
+}
